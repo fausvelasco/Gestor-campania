@@ -1,0 +1,92 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    height: 100%;
+}
+
+.background {
+    background-image: url('Don-Joao.jpg'); /* Asegúrate de reemplazar con tu imagen */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Login Container */
+.login-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+.login-container h1 {
+    font-size: 1.5em;
+    color: rgb(40, 30, 164);
+    margin-bottom: 20px;
+}
+
+/* Login Form */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.login-form label {
+    text-align: left;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.login-form input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 100%;
+    box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.05);
+}
+
+.login-form button {
+    background-color: rgb(40, 30, 164);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: rgb(30, 20, 150);
+}
+
+/* Options */
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.options a {
+    color: rgb(40, 30, 164);
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.options a:hover {
+    text-decoration: underline;
+}
